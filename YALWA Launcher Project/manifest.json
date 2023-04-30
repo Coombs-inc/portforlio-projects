@@ -1,0 +1,12 @@
+{
+    "manifest_version": 3,
+    "name": "Yalwa Launcher",
+    "description": "Fast launch Yalwa's suite of content moderator tools",
+    "version": "1.0.0",
+    "icons": {"128": "icon128.png.png"},
+    "action": {
+        "default_icon": "icon.png.png",
+        "default_popup": "popup.html"
+    },
+    "permissions":["activeTab"]
+}
