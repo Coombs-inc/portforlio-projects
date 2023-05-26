@@ -1,12 +1,17 @@
 {
-    "manifest_version": 3,
+    "manifest_version": 2,
     "name": "Yalwa Launcher",
     "description": "Fast launch Yalwa's suite of content moderator tools",
-    "version": "1.1.0",
+    "version": "1.6.0",
     "icons": {"128": "icon128.png.png"},
     "action": {
         "default_icon": "icon.png.png",
         "default_popup": "popup.html"
     },
-    "permissions":["activeTab"]
+     "permissions": [
+    "tabs",
+    "activeTab"
+  ],  
+   "content_security_policy": "script-src 'self'; object-src 'self'; style-src 'self' https://fonts.googleapis.com https://maxcdn.bootstrapcdn.com; font-src 'self' https://maxcdn.bootstrapcdn.com"
+    
 }
